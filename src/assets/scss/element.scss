@@ -1,0 +1,47 @@
+.el-checkbox__input.is-disabled /deep/.el-checkbox__inner {
+  border-radius: 50%;
+}
+
+.el-form-item--medium /deep/.el-form-item__content {
+  // .el-input--medium /deep/.el-input__inner {
+  //   // width: 400px;
+  // }
+
+  // display: flex;
+  justify-content: space-between;
+}
+
+.el-range-editor--medium.el-input__inner {
+  border-radius: 15px;
+
+}
+
+.el-table__empty-block{
+  border-left: 1px solid #ebeef5;
+  border-right: 1px solid #ebeef5;
+}
+.site-wrapper .el-pagination{
+  padding-top: 36px;
+}
+.el-table thead{
+ 
+}
+.el-table th, .el-table tr{
+  background: #f1f4f5;
+  // height: 60px;
+}
+// #tab-first{
+//   width: 200px;
+//   text-align: center;
+
+// }
+// #tab-third{
+//   width: 200px;
+//   text-align: center;
+
+// }
+// #tab-second{
+//   width: 200px;
+//   text-align: center;
+
+// }

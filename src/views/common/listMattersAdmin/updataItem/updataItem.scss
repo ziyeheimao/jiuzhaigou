@@ -1,0 +1,25 @@
+.ctn{
+  margin-bottom: 100px;
+  .box{
+    display: flex;
+    justify-content: space-between;
+    .el-input{
+      width: 400px;
+    }
+    .el-select{
+      width: 400px;
+    }
+  }
+  .btn{
+    padding: 30px 0;
+    text-align: center;
+  }
+  .btnTop{
+    padding-bottom: 10px;
+    text-align: left;
+  }
+  .page{
+    text-align: right;
+    padding: 20px 30px;
+  }
+}

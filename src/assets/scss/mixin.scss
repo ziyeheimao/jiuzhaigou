@@ -1,0 +1,33 @@
+// 隐藏Y轴滚动条
+@mixin scrollHidden {
+  overflow: hidden !important;
+  overflow-y: scroll !important;
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important;  /* IE 10+ */
+  &::-webkit-scrollbar { /* WebKit */
+    width: 0 !important;
+    height: 0 !important;
+  }
+}
+
+// 单行文本溢出省略
+@mixin overflow-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 多行文本溢出省略
+@mixin Overflow-ellipsis($n) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $n;
+  overflow: hidden;
+}
+
+//flex 布局和 子元素 对其方式
+@mixin fja($justify: space-between, $align: center){
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
